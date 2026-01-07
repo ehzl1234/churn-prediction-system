@@ -1,0 +1,37 @@
+# Configuration for Churn Prediction System
+
+data:
+  raw_path: "data/raw/customers.csv"
+  processed_path: "data/processed/features.csv"
+  test_size: 0.2
+  random_state: 42
+
+features:
+  numeric:
+    - tenure
+    - monthly_charges
+    - total_charges
+  categorical:
+    - contract_type
+    - payment_method
+    - internet_service
+    - tech_support
+    - online_security
+    - streaming_tv
+    - streaming_movies
+
+model:
+  path: "models/churn_model.pkl"
+  algorithms:
+    - logistic_regression
+    - random_forest
+    - xgboost
+  cv_folds: 5
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+
+app:
+  title: "Customer Churn Predictor"
+  page_icon: "🔮"

@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model artifacts (keep tracked ones)
+*.pkl
+!models/*.pkl
+
+# Processed data (regeneratable)
+data/processed/*
+!data/processed/.gitkeep
+
+# Logs
+*.log
