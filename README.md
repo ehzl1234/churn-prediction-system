@@ -7,6 +7,14 @@ A complete **end-to-end machine learning system** for predicting customer churn,
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-orange.svg)
 
+## 📸 Dashboard Preview
+
+<p align="center">
+  <img src="assets/dashboard_preview.png" alt="Churn Prediction Dashboard" width="700">
+</p>
+
+*Interactive dashboard showing real-time churn prediction with risk gauge, probability scores, and actionable risk factors.*
+
 ## 🎯 Project Overview
 
 This project demonstrates production-ready ML skills:
